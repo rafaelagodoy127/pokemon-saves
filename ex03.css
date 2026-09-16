@@ -1,0 +1,54 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    gap: 16px;
+}
+
+
+.eevee {
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.eevee img {
+    width: 80px;
+    height: 80px;
+}
+
+.eevee:hover{
+    background-color: orange
+}
+.vulpix {
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.vulpix img {
+    width: 80px;
+    height: 80px;
+}
+
+.vulpix:hover{
+    background-color: maroon
+}
+
+.jigglypuff {
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.jigglypuff img {
+    width: 80px;
+    height: 80px;
+}
+
+.jigglypuff:hover{
+    background-color: palevioletred;
+}
+
+*{
+    zoom: 1.2;
+}

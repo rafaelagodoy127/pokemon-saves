@@ -1,0 +1,53 @@
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 15px;
+}
+
+.charmander {
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.charmander img {
+    width: 80px;
+    height: 80px;
+}
+
+.charmander:hover{
+    background-color: orangered
+}
+.squirtle {
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.squirtle img {
+    width: 80px;
+    height: 80px;
+}
+
+.squirtle:hover{
+    background-color: blue
+}
+
+.bulbasaur {
+    padding: 15px;
+    border: 2px dashed black;
+}
+
+.bulbasaur img {
+    width: 80px;
+    height: 80px;
+}
+
+.bulbasaur:hover{
+    background-color: greenyellow;
+}
+
+*{
+    zoom: 1.2;
+}
